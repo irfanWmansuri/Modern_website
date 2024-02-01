@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and ( max-width: 1280px ) {
+}
+@media only screen and ( max-width: 1024px ) {
+}
+@media only screen and ( max-width: 980px ) {
+    .headersec{padding: 20px 0;}
+    .navsec ul{gap: 30px;}
+    .aboutsec,.clientsec ,.projectsec{padding: 30px 0;}
+    .worksec{padding: 70px 0 100px;}
+    .projectsec{margin-bottom: 50px;}
+    .blogsec { padding: 90px 0 120px;}
+    .footersec{padding: 160px 0 50px;}
+    h3.title{font-size: 28px;margin-bottom: 20px;}
+
+@media only screen and ( max-width: 800px ) {
+    .personbox .cntntsec a{font-size: 30px;margin-bottom: 4px;}
+    .personbtn a{margin-top: 10px;}
+    .personbox .cntntsec p { font-size: 14px; line-height: 1.4;margin-bottom: 10px;}
+    .personcntnt .namebox h6{margin-bottom: 4px;}
+    .clientwrap .client_namebox h6{font-size: 16px;}
+    .clientsec ul li p,.blogsec ul li p{line-height: 1.5;}
+    .clientsec ul li{width: 100%;}
+    .clientsec ul{gap: 20px;}
+    .blogsec ul{gap: 30px 2%;}
+    .blogsec ul li{width: 49%;text-align: center;}
+    .blogsec{clip-path: polygon(0 3%, 35% 0, 100% 3%, 100% 98%, 65% 100%, 0 98%);}
+    .blogsec ul li p{margin-top: 10px;}
+    .blogsec ul li .date { margin-top: 20px; }
+    .footersec .footerwrap{gap: 50px;}
+    .footerleft p,.footermiddle ul li a,.footerright ul li p{font-size: 14px;}
+    .footersec .heading{font-size: 16px;}
+    .footerright { width: 24%;}
+    .abtcntnt h4{font-size: 22px;}
+    .abtcntnt p, .abtright p,.seosec ul li .text p { font-size: 14px; line-height: 1.4;}
+    .abtbtn a{margin-top: 15px;}
+    .seosec ul li .text h3{font-size: 14px;}
+    .text{width: 70%;margin-left: 14px;}
+    .seosec ul li span{font-size: 30px;}
+}
+@media only screen and ( max-width: 768px ) {
+    .bannersec .bnrcntnt h1{font-size: 30px;}
+    .bannersec .bnrcntnt p{font-size: 16px;margin-bottom: 14px;}
+    .bannersec .bnrright h4{font-size: 26px;line-height: 26px;}
+    .bannersec .bnrright p{font-size: 14px;line-height: 1.2; margin-top: 10px;}
+    .bannersec{padding: 100px 0;}
+    .aboutsec ul li h5{font-size: 14px;margin-top: 20px;}
+}
+@media only screen and ( max-width: 736px ) {
+    .abtcntnt, .abtimg, .abtright {width: 100%;}
+    .abtcntnt { text-align: left; }
+    .abtimg{order: 1;} .abtcntnt{order: 2;margin-top: 20px;} .abtright{order: 3;}
+    .abtright p{margin-top: 10px;}
+    .seosec ul li {width: 100%;text-align: left;}
+    .seosec ul li span { width: 5%;}
+    .aboutsec ul{gap: 15px;}
+    .seosec ul li .text p{margin-top: 4px;}
+    .worksec ul li+li{margin-top: 0;}
+    .footersec .heading{margin-bottom: 15px;}
+    
+}
+@media only screen and ( max-width: 667px ) {
+    .projectcntnt h2{font-size: 22px;}
+    .projectcntnt p{font-size: 14px; line-height: 1.5;}
+    .projectcntnt { width: 100%;}
+    .personbox .cntntsec a { font-size: 22px; margin-bottom: 0px; }
+    .personbox .cntntsec h5{margin-bottom: 4px;}
+    .footerleft ,.footermiddle,.footerright{width: 100%;}
+    .blogsec ul li h3 a { font-size: 16px;margin-bottom: 8px;}
+    .blogsec ul li p { font-size: 14px;}
+}
+@media only screen and ( max-width: 640px ) {
+}
+@media only screen and ( max-width: 600px ) {
+    .aboutsec ul{flex-direction: column;gap: 30px; }
+    .aboutsec ul li,.worksec .imgsec{width: 100%;}
+    .aboutsec ul li h5{margin-top: 10px;}
+    .worksec ul li{flex-direction: column;}
+    .worksec ul li:nth-child(even){flex-direction: column-reverse;margin-top: 60px;text-align: left;}
+    .rightalign { flex-direction: row;}
+    .leftalign { text-align: left;}
+    .worksec ul li+li{margin-top: 50px;}
+    .worksec ul li{gap: 25px;}
+}
+@media only screen and ( max-width: 568px ) {
+    .bannersec .container{flex-direction: column-reverse;gap: 30px;}
+}
+@media only screen and ( max-width: 480px ) {
+    .container{width: 90%;}
+    .blogsec ul li { width: 100%;}
+    .blogsec ul li p { margin-top: 5px;}
+    .footermiddle{flex-direction: column;gap: 40px;}
+    .copysec p {font-size: 14px;}
+    .navsec{display: none;}
+    .bannersec .bnrright { text-align: left; width: 100%; }
+    .bannersec{clip-path: polygon(0 0, 100% 0, 100% 96%, 65% 100%, 0 96%);}
+    .bnrcntnt .bnrbtn a{font-size: 14px;padding: 10px 15px;}
+    .clientsec ul li p{margin-bottom: 15px;}
+}
+@media only screen and ( max-width: 414px ) {
+    .footerleft ul{margin-top: 20px;}
+    .blogsec { padding: 90px 0 70px; }
+    .worksec{clip-path: polygon(0 1%, 35% 0, 100% 1%, 100% 99%, 65% 100%, 0 99%);}
+    h3.title{font-size: 18px;}
+    .seosec ul li span { width: 10%; }
+    .clientsec ul li p{font-size: 14px;}
+    .projectcntnt h2 { font-size: 20px;}
+}
+@media only screen and ( max-width: 384px ) {
+}
+@media only screen and ( max-width: 375px ) {
+}
+@media only screen and ( max-width: 360px ) {
+    .bannersec .bnrcntnt h1{font-size: 18px;}
+    .bannersec .bnrcntnt p span{display: inline;}
+}
+@media only screen and ( max-width: 320px ) {
+    .bannersec .playbtn{right: 18%;bottom: 3%;}
+}
